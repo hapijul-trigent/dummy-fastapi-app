@@ -17,7 +17,7 @@ class Item(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to Daksh-DevOps!"}
+    return {"message": "Welcome to Daksh-DevOps!!"}
 
 @app.get("/items/")
 def get_all_items():
