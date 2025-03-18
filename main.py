@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI()
-
+p
 # Dummy database
 items = {
     1: {"name": "Laptop", "price": 999.99, "description": "A gaming laptop"},
