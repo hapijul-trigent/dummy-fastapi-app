@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI()
-p
 # Dummy database
 items = {
     1: {"name": "Laptop", "price": 999.99, "description": "A gaming laptop"},
@@ -19,7 +18,7 @@ class Item(BaseModel):
 def read_root():
     return {"message": "Welcome to Daksh-DevOps!!"}
 
-@app.get("/items/")
+@app.get("/items/").
 def get_all_items():
     return items
 
