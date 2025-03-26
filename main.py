@@ -14,7 +14,7 @@ class Item(BaseModel):
     price: float
     description: str | None = None
 
-@app.get("/")
+@app.get("/")..
 def read_root():
     return {"message": "Welcome to Daksh-DevOps!!"}
 
